@@ -103,6 +103,16 @@ namespace Browser.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap blueclr {
+            get {
+                object obj = ResourceManager.GetObject("blueclr", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Bokehlicia_Captiva_Browser_web {
             get {
                 object obj = ResourceManager.GetObject("Bokehlicia-Captiva-Browser-web", resourceCulture);
@@ -223,6 +233,16 @@ namespace Browser.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap iconfinder___07_1720774 {
+            get {
+                object obj = ResourceManager.GetObject("iconfinder_--07_1720774", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap iconfinder_058_CircledArrowRight_183187 {
             get {
                 object obj = ResourceManager.GetObject("iconfinder_058_CircledArrowRight_183187", resourceCulture);
@@ -246,6 +266,36 @@ namespace Browser.Properties {
         internal static System.Drawing.Bitmap iconfinder_add_126583 {
             get {
                 object obj = ResourceManager.GetObject("iconfinder_add_126583", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap iconfinder_burger_menu_more_panel_2203512 {
+            get {
+                object obj = ResourceManager.GetObject("iconfinder_burger-menu-more-panel_2203512", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap iconfinder_circle_more_detail_glyph_763454 {
+            get {
+                object obj = ResourceManager.GetObject("iconfinder_circle-more-detail-glyph_763454", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap iconfinder_circle_more_detail_glyph_763454_1_ {
+            get {
+                object obj = ResourceManager.GetObject("iconfinder_circle-more-detail-glyph_763454(1)", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -303,6 +353,26 @@ namespace Browser.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap iconfinder_icons_exit2_1564506 {
+            get {
+                object obj = ResourceManager.GetObject("iconfinder_icons_exit2_1564506", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap iconfinder_info_outline_326659 {
+            get {
+                object obj = ResourceManager.GetObject("iconfinder_info-outline_326659", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap iconfinder_star_circle_353442 {
             get {
                 object obj = ResourceManager.GetObject("iconfinder_star-circle_353442", resourceCulture);
@@ -346,6 +416,16 @@ namespace Browser.Properties {
         internal static System.Drawing.Bitmap RegisterBtn {
             get {
                 object obj = ResourceManager.GetObject("RegisterBtn", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap unpressedReload {
+            get {
+                object obj = ResourceManager.GetObject("unpressedReload", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

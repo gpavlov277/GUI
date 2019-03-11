@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AboutForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AboutForm.Designer.cs">
+      <DependentUpon>AboutForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="BrowserForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -66,6 +72,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="AboutForm.resx">
+      <DependentUpon>AboutForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="BrowserForm.resx">
       <DependentUpon>BrowserForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -168,10 +177,18 @@
     <None Include="Resources\iconfinder_folder favourites_88692.png" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\iconfinder_circle-more-detail-glyph_763454%281%29.png" />
+    <None Include="Resources\iconfinder_circle-more-detail-glyph_763454.png" />
+    <None Include="Resources\iconfinder_burger-menu-more-panel_2203512.png" />
+    <None Include="Resources\iconfinder_icons_exit2_1564506.png" />
+    <None Include="Resources\iconfinder_info-outline_326659.png" />
+    <None Include="Resources\unpressedReload.png" />
+    <None Include="Resources\iconfinder_--07_1720774.png" />
     <None Include="Resources\CloseTabRed.png" />
     <None Include="Resources\AddPressed.png" />
     <None Include="Resources\forwardPressed.gif" />
     <None Include="Resources\backPressed.gif" />
+    <None Include="Resources\blueclr.png" />
     <Content Include="Resources\filledStar.png" />
     <None Include="Resources\GoArrow.png" />
     <None Include="Resources\filledStar1.png" />

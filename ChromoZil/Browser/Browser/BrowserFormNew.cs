@@ -404,5 +404,70 @@ namespace Browser
         
 
     }
+
+        private void button_DeleteAll_Click(object sender, EventArgs e)
+        {
+            File.WriteAllText(SignIn.loggedUser, String.Empty);
+            favsSites.Clear();
+            FavsList.Items.Clear();
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void pictureBox1_Click_1(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void pictureBox_ReloadSite_MouseDown(object sender, MouseEventArgs e)
+        {
+            pictureBox_ReloadSite.Image = Browser.Properties.Resources.iconfinder___07_1720774;
+        }
+
+        private void pictureBox_ReloadSite_MouseUp(object sender, MouseEventArgs e)
+        {
+            pictureBox_ReloadSite.Image = Browser.Properties.Resources.unpressedReload;
+        }
+
+        private void contextMenuStrip_Settings_Opening(object sender, CancelEventArgs e)
+        {
+           
+        }
+
+        private void pictureBox1_Click_2(object sender, EventArgs e)
+        {
+            contextMenuStrip_Settings.Show(Cursor.Position.X, Cursor.Position.Y);
+        }
+
+        private void изходToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            SignIn signinForm = new SignIn();
+            signinForm.Show();
+        }
+
+        private void заПриложениетоToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            AboutForm about = new AboutForm();
+            about.Show();
+        }
+
+        private void aboutToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 } 
